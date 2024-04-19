@@ -1,0 +1,17 @@
+E:\Real-Time Stock Exchange\StockExchange\StockRepositoryLayer\bin\Debug\net8.0\StockRepositoryLayer.deps.json
+E:\Real-Time Stock Exchange\StockExchange\StockRepositoryLayer\bin\Debug\net8.0\StockRepositoryLayer.runtimeconfig.json
+E:\Real-Time Stock Exchange\StockExchange\StockRepositoryLayer\bin\Debug\net8.0\StockRepositoryLayer.dll
+E:\Real-Time Stock Exchange\StockExchange\StockRepositoryLayer\bin\Debug\net8.0\StockRepositoryLayer.pdb
+E:\Real-Time Stock Exchange\StockExchange\StockRepositoryLayer\bin\Debug\net8.0\StockDomainLayer.dll
+E:\Real-Time Stock Exchange\StockExchange\StockRepositoryLayer\bin\Debug\net8.0\StockDomainLayer.pdb
+E:\Real-Time Stock Exchange\StockExchange\StockRepositoryLayer\obj\Debug\net8.0\StockRepositoryLayer.csproj.AssemblyReference.cache
+E:\Real-Time Stock Exchange\StockExchange\StockRepositoryLayer\obj\Debug\net8.0\StockRepositoryLayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\Real-Time Stock Exchange\StockExchange\StockRepositoryLayer\obj\Debug\net8.0\StockRepositoryLayer.AssemblyInfoInputs.cache
+E:\Real-Time Stock Exchange\StockExchange\StockRepositoryLayer\obj\Debug\net8.0\StockRepositoryLayer.AssemblyInfo.cs
+E:\Real-Time Stock Exchange\StockExchange\StockRepositoryLayer\obj\Debug\net8.0\StockRepositoryLayer.csproj.CoreCompileInputs.cache
+E:\Real-Time Stock Exchange\StockExchange\StockRepositoryLayer\obj\Debug\net8.0\StockRepositoryLayer.csproj.CopyComplete
+E:\Real-Time Stock Exchange\StockExchange\StockRepositoryLayer\obj\Debug\net8.0\StockRepositoryLayer.dll
+E:\Real-Time Stock Exchange\StockExchange\StockRepositoryLayer\obj\Debug\net8.0\refint\StockRepositoryLayer.dll
+E:\Real-Time Stock Exchange\StockExchange\StockRepositoryLayer\obj\Debug\net8.0\StockRepositoryLayer.pdb
+E:\Real-Time Stock Exchange\StockExchange\StockRepositoryLayer\obj\Debug\net8.0\StockRepositoryLayer.genruntimeconfig.cache
+E:\Real-Time Stock Exchange\StockExchange\StockRepositoryLayer\obj\Debug\net8.0\ref\StockRepositoryLayer.dll

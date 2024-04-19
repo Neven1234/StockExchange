@@ -1,0 +1,12 @@
+E:\Real-Time Stock Exchange\StockExchange\StockDomainLayer\bin\Debug\net8.0\StockDomainLayer.deps.json
+E:\Real-Time Stock Exchange\StockExchange\StockDomainLayer\bin\Debug\net8.0\StockDomainLayer.dll
+E:\Real-Time Stock Exchange\StockExchange\StockDomainLayer\bin\Debug\net8.0\StockDomainLayer.pdb
+E:\Real-Time Stock Exchange\StockExchange\StockDomainLayer\obj\Debug\net8.0\StockDomainLayer.csproj.AssemblyReference.cache
+E:\Real-Time Stock Exchange\StockExchange\StockDomainLayer\obj\Debug\net8.0\StockDomainLayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\Real-Time Stock Exchange\StockExchange\StockDomainLayer\obj\Debug\net8.0\StockDomainLayer.AssemblyInfoInputs.cache
+E:\Real-Time Stock Exchange\StockExchange\StockDomainLayer\obj\Debug\net8.0\StockDomainLayer.AssemblyInfo.cs
+E:\Real-Time Stock Exchange\StockExchange\StockDomainLayer\obj\Debug\net8.0\StockDomainLayer.csproj.CoreCompileInputs.cache
+E:\Real-Time Stock Exchange\StockExchange\StockDomainLayer\obj\Debug\net8.0\StockDomainLayer.dll
+E:\Real-Time Stock Exchange\StockExchange\StockDomainLayer\obj\Debug\net8.0\refint\StockDomainLayer.dll
+E:\Real-Time Stock Exchange\StockExchange\StockDomainLayer\obj\Debug\net8.0\StockDomainLayer.pdb
+E:\Real-Time Stock Exchange\StockExchange\StockDomainLayer\obj\Debug\net8.0\ref\StockDomainLayer.dll
