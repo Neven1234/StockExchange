@@ -33,18 +33,16 @@ namespace StockServiceLayer.Implementation
         public async Task<Order> BuyOrder(Order order)
         {
             order.OrderType = "Buy";
-            var orderFromRepo = await _repository.GetAllAsync(o => o.SampleStockName == order.SampleStockName && o.UserId==order.UserId);
-            if (orderFromRepo.Count()==0)
+            var orderFromRepo = await _repository.GetAsync(o => o.SampleStockName == order.SampleStockName && o.UserId==order.UserId);
+            if (orderFromRepo==null)
             {
                 var newOrder = await _repository.AddAsync(order);
                 return newOrder;
             }
-            foreach (var item in orderFromRepo)
-            {
-                item.Quantity = item.Quantity + order.Quantity;
-                await _repository.Update(item);
+            
+               orderFromRepo.Quantity = orderFromRepo.Quantity + order.Quantity;
+               await _repository.Update(orderFromRepo);
                 
-            }
             return order;
         }
 

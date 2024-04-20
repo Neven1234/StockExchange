@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Real-Time Stock Exchange\\StockExchange\\StockServiceLayer\\StockServiceLayer.csproj": {}
+    "E:\\StockExchange\\Real-Time Stock Exchange\\StockExchange\\StockServiceLayer\\StockServiceLayer.csproj": {}
   },
   "projects": {
-    "E:\\Real-Time Stock Exchange\\StockExchange\\StockDomainLayer\\StockDomainLayer.csproj": {
+    "E:\\StockExchange\\Real-Time Stock Exchange\\StockExchange\\StockDomainLayer\\StockDomainLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Real-Time Stock Exchange\\StockExchange\\StockDomainLayer\\StockDomainLayer.csproj",
+        "projectUniqueName": "E:\\StockExchange\\Real-Time Stock Exchange\\StockExchange\\StockDomainLayer\\StockDomainLayer.csproj",
         "projectName": "StockDomainLayer",
-        "projectPath": "E:\\Real-Time Stock Exchange\\StockExchange\\StockDomainLayer\\StockDomainLayer.csproj",
+        "projectPath": "E:\\StockExchange\\Real-Time Stock Exchange\\StockExchange\\StockDomainLayer\\StockDomainLayer.csproj",
         "packagesPath": "C:\\Users\\JC.TECH\\.nuget\\packages\\",
-        "outputPath": "E:\\Real-Time Stock Exchange\\StockExchange\\StockDomainLayer\\obj\\",
+        "outputPath": "E:\\StockExchange\\Real-Time Stock Exchange\\StockExchange\\StockDomainLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -73,14 +73,14 @@
         }
       }
     },
-    "E:\\Real-Time Stock Exchange\\StockExchange\\StockRepositoryLayer\\StockRepositoryLayer.csproj": {
+    "E:\\StockExchange\\Real-Time Stock Exchange\\StockExchange\\StockRepositoryLayer\\StockRepositoryLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Real-Time Stock Exchange\\StockExchange\\StockRepositoryLayer\\StockRepositoryLayer.csproj",
+        "projectUniqueName": "E:\\StockExchange\\Real-Time Stock Exchange\\StockExchange\\StockRepositoryLayer\\StockRepositoryLayer.csproj",
         "projectName": "StockRepositoryLayer",
-        "projectPath": "E:\\Real-Time Stock Exchange\\StockExchange\\StockRepositoryLayer\\StockRepositoryLayer.csproj",
+        "projectPath": "E:\\StockExchange\\Real-Time Stock Exchange\\StockExchange\\StockRepositoryLayer\\StockRepositoryLayer.csproj",
         "packagesPath": "C:\\Users\\JC.TECH\\.nuget\\packages\\",
-        "outputPath": "E:\\Real-Time Stock Exchange\\StockExchange\\StockRepositoryLayer\\obj\\",
+        "outputPath": "E:\\StockExchange\\Real-Time Stock Exchange\\StockExchange\\StockRepositoryLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -102,8 +102,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Real-Time Stock Exchange\\StockExchange\\StockDomainLayer\\StockDomainLayer.csproj": {
-                "projectPath": "E:\\Real-Time Stock Exchange\\StockExchange\\StockDomainLayer\\StockDomainLayer.csproj"
+              "E:\\StockExchange\\Real-Time Stock Exchange\\StockExchange\\StockDomainLayer\\StockDomainLayer.csproj": {
+                "projectPath": "E:\\StockExchange\\Real-Time Stock Exchange\\StockExchange\\StockDomainLayer\\StockDomainLayer.csproj"
               }
             }
           }
@@ -130,6 +130,10 @@
               "version": "[8.0.4, )"
             },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
               "version": "[8.0.4, )"
             },
@@ -164,14 +168,14 @@
         }
       }
     },
-    "E:\\Real-Time Stock Exchange\\StockExchange\\StockServiceLayer\\StockServiceLayer.csproj": {
+    "E:\\StockExchange\\Real-Time Stock Exchange\\StockExchange\\StockServiceLayer\\StockServiceLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Real-Time Stock Exchange\\StockExchange\\StockServiceLayer\\StockServiceLayer.csproj",
+        "projectUniqueName": "E:\\StockExchange\\Real-Time Stock Exchange\\StockExchange\\StockServiceLayer\\StockServiceLayer.csproj",
         "projectName": "StockServiceLayer",
-        "projectPath": "E:\\Real-Time Stock Exchange\\StockExchange\\StockServiceLayer\\StockServiceLayer.csproj",
+        "projectPath": "E:\\StockExchange\\Real-Time Stock Exchange\\StockExchange\\StockServiceLayer\\StockServiceLayer.csproj",
         "packagesPath": "C:\\Users\\JC.TECH\\.nuget\\packages\\",
-        "outputPath": "E:\\Real-Time Stock Exchange\\StockExchange\\StockServiceLayer\\obj\\",
+        "outputPath": "E:\\StockExchange\\Real-Time Stock Exchange\\StockExchange\\StockServiceLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -193,8 +197,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Real-Time Stock Exchange\\StockExchange\\StockRepositoryLayer\\StockRepositoryLayer.csproj": {
-                "projectPath": "E:\\Real-Time Stock Exchange\\StockExchange\\StockRepositoryLayer\\StockRepositoryLayer.csproj"
+              "E:\\StockExchange\\Real-Time Stock Exchange\\StockExchange\\StockRepositoryLayer\\StockRepositoryLayer.csproj": {
+                "projectPath": "E:\\StockExchange\\Real-Time Stock Exchange\\StockExchange\\StockRepositoryLayer\\StockRepositoryLayer.csproj"
               }
             }
           }

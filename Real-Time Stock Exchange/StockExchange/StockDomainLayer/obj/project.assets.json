@@ -565,11 +565,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Real-Time Stock Exchange\\StockExchange\\StockDomainLayer\\StockDomainLayer.csproj",
+      "projectUniqueName": "E:\\StockExchange\\Real-Time Stock Exchange\\StockExchange\\StockDomainLayer\\StockDomainLayer.csproj",
       "projectName": "StockDomainLayer",
-      "projectPath": "E:\\Real-Time Stock Exchange\\StockExchange\\StockDomainLayer\\StockDomainLayer.csproj",
+      "projectPath": "E:\\StockExchange\\Real-Time Stock Exchange\\StockExchange\\StockDomainLayer\\StockDomainLayer.csproj",
       "packagesPath": "C:\\Users\\JC.TECH\\.nuget\\packages\\",
-      "outputPath": "E:\\Real-Time Stock Exchange\\StockExchange\\StockDomainLayer\\obj\\",
+      "outputPath": "E:\\StockExchange\\Real-Time Stock Exchange\\StockExchange\\StockDomainLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

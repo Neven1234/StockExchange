@@ -9,7 +9,7 @@ namespace StockDomainLayer.Models
     public class History
     {
         public int Id { get; set; }
-        public ICollection< Order> Order { get; set; }
+        public virtual ICollection< Order> Order { get; set; }
         public string userId { get; set; }
     }
 }

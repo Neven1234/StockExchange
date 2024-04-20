@@ -54,7 +54,7 @@ builder.Services.AddSwaggerGen(C =>
 
 builder.Services.AddDbContext<AppDbContext>(option =>
 {
-    option.UseNpgsql(builder.Configuration.GetConnectionString("connSrting"));
+    option.UseLazyLoadingProxies().UseNpgsql(builder.Configuration.GetConnectionString("connSrting"));
 });
 builder.Services.AddScoped<IRepository<Order>,Repository<Order>>();
 builder.Services.AddScoped<IRepository<History>, Repository<History>>();

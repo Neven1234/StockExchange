@@ -9,6 +9,6 @@ namespace StockDomainLayer.Models
 {
     public class User: IdentityUser
     {
-        public ICollection<Order> orders {  get; set; }
+        public virtual ICollection<Order> orders {  get; set; }
     }
 }
