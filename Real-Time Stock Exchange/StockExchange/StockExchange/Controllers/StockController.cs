@@ -29,8 +29,8 @@ namespace StockExchange.Controllers
                     RecurringJob.RemoveIfExists(recurringJob.Id);
                 }
             }
-            RecurringJob.AddOrUpdate(() =>
-            _yahooApi.GetAllStocks(StocksName), "*/50 * * * *");
+            //RecurringJob.AddOrUpdate(() =>
+            //_yahooApi.GetAllStocks(StocksName), "*/50 * * * *");
             var stockdata = await _yahooApi.GetAllStocks(StocksName);   
             return Ok(stockdata);
         }

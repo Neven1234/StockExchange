@@ -12,10 +12,12 @@ namespace StockServiceLayer.Implementation
     public class OrderService : IOrderService
     {
         private readonly IRepository<Order> _repository;
+        private readonly IHistory _history;
 
-        public OrderService(IRepository<Order> repository)
+        public OrderService(IRepository<Order> repository,IHistory history)
         {
             _repository = repository;
+            _history = history;
         }
         public async Task<Order> AddOrder(Order order)
         {
@@ -62,10 +64,22 @@ namespace StockServiceLayer.Implementation
             var soldOrders=await _repository.GetByIdAsync(id);
             if (soldOrders != null)
             {
+                
                 if (soldOrders.Quantity < quantity)
                 {
                     return null;
                 }
+                Order SoldOrder = new Order
+                {
+                    SampleStockName = soldOrders.SampleStockName,
+                    Quantity = quantity,
+                    OrderType = "Sell",
+                    regularMarketPrice = soldOrders.regularMarketPrice,
+                    UserId = soldOrders.UserId
+
+                };
+                _history.Add(SoldOrder, SoldOrder.UserId);
+
                 if (soldOrders.Quantity == quantity)
                 {
                     await _repository.Remove(id);

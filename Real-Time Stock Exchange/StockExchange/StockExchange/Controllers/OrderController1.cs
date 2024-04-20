@@ -53,8 +53,8 @@ namespace StockExchange.Controllers
             {
                 return BadRequest();
             }
-            var order= await _orderService.GetOrderById(id);
-            await _history.Add(order,order.UserId);
+            //var order= await _orderService.GetOrderById(id);
+            //await _history.Add(order,order.UserId);
             return Ok(result);
         }
     }
