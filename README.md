@@ -1,5 +1,5 @@
 Stock Exchange:
--integrating with Yahoo Finance  to get stock history buy a given name
+-integrating with Yahoo Finance  to get stock history by a given name
 <br>
 -using hangfire  recurring job to refreash the data 
 <br>
