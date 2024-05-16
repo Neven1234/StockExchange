@@ -1,0 +1,18 @@
+<table class="table">
+    <thead class="thead-dark">
+      <tr>
+        
+        <th scope="col">Symbol</th>
+        <th scope="col">Currency</th>
+        <th scope="col">Regular Market Price</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let stock of stocks" >
+      <tr>
+        <!-- <th scope="row">1</th> -->
+        <td>{{stock.symbol}}</td>
+        <td>{{stock.currency}}</td>
+        <td>{{stock.regularMarketPrice}}</td>
+      </tr>
+    </tbody>
+  </table>
